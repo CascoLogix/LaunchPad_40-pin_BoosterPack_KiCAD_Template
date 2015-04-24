@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/24/2013 12:38:46 AM
+
+BeginCmp
+TimeStamp = /4D39C254;
+Reference = P1;
+ValeurCmp = CONN_10;
+IdModule  = HEADER_100MIL_1R10P_PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D39C25A;
+Reference = P2;
+ValeurCmp = CONN_10;
+IdModule  = HEADER_100MIL_1R10P_PTH;
+EndCmp
+
+EndListe

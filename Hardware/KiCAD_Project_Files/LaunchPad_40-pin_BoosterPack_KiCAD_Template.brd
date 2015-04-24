@@ -1,0 +1,389 @@
+PCBNEW-BOARD Version 1 date 2/24/2013 12:39:46 AM
+
+# Created by Pcbnew(2012-01-19 BZR 3256)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 27701 32566 52301 47280
+Ndraw 6
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 4
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "24 feb 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 60
+TrackWidthList 150
+TrackWidthList 200
+TrackWidthList 250
+TrackWidthList 300
+TrackWidthList 350
+TrackWidthList 400
+TrackWidthList 500
+TrackClearence 60
+ZoneClearence 60
+TrackMinWidth 60
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 200
+ViaDrill 130
+ViaMinSize 200
+ViaMinDrill 130
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 60
+TrackWidth 60
+ViaDia 200
+ViaDrill 130
+uViaDia 200
+uViaDrill 50
+AddNet ""
+$EndNCLASS
+$NCLASS
+Name "Power"
+Desc ""
+Clearance 60
+TrackWidth 200
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+$EndNCLASS
+$MODULE FIDUCIAL
+Po 50200 34400 0 15 5052AF7C 5107545D ~~
+Li FIDUCIAL
+Sc 5107545D
+AR FIDUCIAL
+Op 0 0 0
+T0 0 500 180 200 0 40 N V 21 N ""
+T1 0 -500 180 200 0 40 N V 21 N ""
+$PAD
+Sh "1" C 500 500 0 0 2700
+Dr 0 0 0
+At SMD N 00C0FFFF
+Ne 0 ""
+Po 0 0
+.SolderMask 250
+.LocalClearance 250
+$EndPAD
+$EndMODULE  FIDUCIAL
+$MODULE FIDUCIAL
+Po 35200 42200 0 15 5052AF7C 510754AB ~~
+Li FIDUCIAL
+Sc 510754AB
+AR FIDUCIAL
+Op 0 0 0
+T0 0 500 180 200 0 40 N V 21 N ""
+T1 0 -500 180 200 0 40 N V 21 N ""
+$PAD
+Sh "1" C 500 500 0 0 2700
+Dr 0 0 0
+At SMD N 00C0FFFF
+Ne 0 ""
+Po 0 0
+.SolderMask 250
+.LocalClearance 250
+$EndPAD
+$EndMODULE  FIDUCIAL
+$MODULE HEADER_100MIL_1R10P_PTH
+Po 33200 38600 2700 0 510A196E 4D7EB299 ~~
+Li HEADER_100MIL_1R10P_PTH
+Kw Header
+Sc 4D7EB299
+AR /4D39C254
+Op 0 0 0
+.SolderPasteRatio 9.2081e-317
+T0 -5500 0 400 400 2700 60 M V 20 N "P1"
+T1 0 1000 400 400 2700 60 M I 20 N "CONN_10"
+DS 5000 -500 -5000 -500 100 20
+DS -5000 500 5000 500 100 20
+DS -5000 -500 -5000 500 100 20
+DS 5000 500 5000 -500 100 20
+DS -4000 500 -4000 -500 100 20
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 4500 0
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 500 0
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 2500 0
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 3500 0
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -500 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -4500 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -3500 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -2500 0
+$EndPAD
+$SHAPE3D
+Na "C:\\Engineering\\KiCAD_Libraries\\3D\\Headers\\HEADER_M_100MIL_1R10P_0.230H_0.120T_ST_GOLD_PTH.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  HEADER_100MIL_1R10P_PTH
+$MODULE HEADER_100MIL_1R10P_PTH
+Po 51200 38600 2700 0 510A196E 4D7EB2C9 ~~
+Li HEADER_100MIL_1R10P_PTH
+Kw Header
+Sc 4D7EB2C9
+AR /4D39C25A
+Op 0 0 0
+.SolderPasteRatio 9.2081e-317
+T0 -5500 0 400 400 2700 60 M V 20 N "P2"
+T1 0 1000 400 400 2700 60 M I 20 N "CONN_10"
+DS 5000 -500 -5000 -500 100 20
+DS -5000 500 5000 500 100 20
+DS -5000 -500 -5000 500 100 20
+DS 5000 500 5000 -500 100 20
+DS -4000 500 -4000 -500 100 20
+$PAD
+Sh "10" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 4500 0
+$EndPAD
+$PAD
+Sh "7" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$PAD
+Sh "6" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 500 0
+$EndPAD
+$PAD
+Sh "8" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 2500 0
+$EndPAD
+$PAD
+Sh "9" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po 3500 0
+$EndPAD
+$PAD
+Sh "5" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -500 0
+$EndPAD
+$PAD
+Sh "4" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "1" R 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -4500 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -3500 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 2700
+Dr 400 0 0
+At STD N 00D0FFFF
+Ne 0 ""
+Po -2500 0
+$EndPAD
+$SHAPE3D
+Na "C:\\Engineering\\KiCAD_Libraries\\3D\\Headers\\HEADER_M_100MIL_1R10P_0.230H_0.120T_ST_GOLD_PTH.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  HEADER_100MIL_1R10P_PTH
+$COTATION
+Ge 0 25 0
+Va 20000
+Te "2.0000 "
+Po 42200 46639 600 800 120 0 1
+Sb 0 32200 45999 52200 45999 120
+Sd 0 52200 43800 52200 47279 120
+Sg 0 32200 43800 32200 47279 120
+S1 0 52200 45999 51757 46229 120
+S2 0 52200 45999 51757 45769 120
+S3 0 32200 45999 32643 46229 120
+S4 0 32200 45999 32643 45769 120
+$endCOTATION
+$COTATION
+Ge 0 25 0
+Va 10400
+Te "1.0400 "
+Po 29560 38600 600 800 120 900 1
+Sb 0 30200 43800 30200 33400 120
+Sd 0 32200 33400 28920 33400 120
+Sg 0 32200 43800 28920 43800 120
+S1 0 30200 33400 30430 33843 120
+S2 0 30200 33400 29970 33843 120
+S3 0 30200 43800 30430 43357 120
+S4 0 30200 43800 29970 43357 120
+$endCOTATION
+$DRAWSEGMENT
+Po 0 32200 43800 32200 33400 100
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 52200 43800 32200 43800 100
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 52200 33400 52200 43800 100
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$DRAWSEGMENT
+Po 0 32200 33400 52200 33400 100
+De 28 0 900 0 0
+$EndDRAWSEGMENT
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$CZONE_OUTLINE
+ZInfo 51074C0A -1 "GND"
+ZLayer 0
+ZAux 4 E
+ZClearance 60 T
+ZMinThickness 60
+ZOptions 0 16 F 150 150
+ZSmoothing 0 0
+ZCorner 52200 43800 0
+ZCorner 52200 33400 0
+ZCorner 32200 33400 0
+ZCorner 32200 43800 1
+$endCZONE_OUTLINE
+$CZONE_OUTLINE
+ZInfo 51074C39 -1 "VCC"
+ZLayer 15
+ZAux 4 E
+ZClearance 60 T
+ZMinThickness 60
+ZOptions 0 16 F 150 150
+ZSmoothing 0 0
+ZCorner 52200 43800 0
+ZCorner 52200 33400 0
+ZCorner 32200 33400 0
+ZCorner 32200 43800 1
+$endCZONE_OUTLINE
+$EndBOARD
